@@ -68,6 +68,8 @@ h1, h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
+
+
     position: relative;
 }
 
@@ -89,7 +91,7 @@ h1, h2 {
 
 @keyframes hero-zoom {
     from{
-        transform: scale(1.1);
+        transform: scale(1);
     }
     to{
         transform: scale(1.1);
