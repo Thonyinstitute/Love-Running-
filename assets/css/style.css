@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
 * {
     margin: 0;
@@ -235,9 +235,9 @@ footer {
 }
 
 .social-networks i {
-    font-size: 180%;
-    margin: 2%;
-    padding: 2%;
+    font-size: 280%;
+    margin: 1%;
+    padding: 1%;
     color: #3a3a3a;
 }
 
@@ -290,3 +290,42 @@ footer {
     }
 }
 
+
+/* for medium screen size from 950px wide and down*/
+
+@media screen and (max-width) {
+    #menu {
+        clear:left;
+        float: left;
+        max-height: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+
+    #cover-text {
+        left: 0;
+    }
+
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 20px;
+    }
+    
+}
