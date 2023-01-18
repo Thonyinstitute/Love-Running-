@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Love Running club for runners in Dublin, Ireland">
+    <meta name="keywords" content="love running, running club, dublin, ireland">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Love Running</title>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <h1 id="logo">Love Running</h1>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a class="active" href="Signup.html">Sign Up</a>
+                </li>
+                <li>
+                    <a href="galary.html">Galary</a>
+                </li>
+                <li>
+                    <a href="index.html" class="active">Home</a>
+                </li>
+           </ul>
+        </nav>
+        <section class="form-section">
+        
+            <form action="https://formdump.codeinstitute.net/" method="POST">
+                
+                <fieldset>
+                <h2>Let's get you signed up!</h2>
+                
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="first_name" required>
+                
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="last_name" required>
+                <label for="email"> Email Address</label>
+                <input id="email" type="email" name="email_address"  required>
+                
+                <label for="road">Road</label>
+                <input type="radio" id="road" value="road"  name="running_preference" required>
+                
+                <label for="trail">Trail</label>
+                <input type="radio" id="trail" value="trail"  name="running_preference">
+                <label for="both">Both</label>
+                    <input type="radio" id="both" value="both"  name="running_preference">
+                    </form>
+            
+                          <form id="submit">
+                                <input type="submit" value="Let's Run!" />
+                          </form>
+                </fieldset>
+        </section>
+    </header>
